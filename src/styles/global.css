@@ -1,0 +1,44 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary: #EB5440;
+  --color-secondary: #4A4B4C;
+  --color-tertiary: #E8E8E8;
+  --color-tertiary-light: #C3C3C3;
+  --color-background-1: #F6F6F6;
+  --color-background-2: #FFFFFF;
+  --color-hyperlink: #067BC2;
+}
+
+body {
+  font-family: 'Montserrat', 'Open Sans';
+  color: var(--color-primary);
+  background-color: var(--color-background-1);
+}
+
+a {
+  color: var(--color-hyperlink);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.medium-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.regular {
+  font-weight: 400;
+}
